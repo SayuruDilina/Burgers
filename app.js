@@ -210,7 +210,7 @@ function searchCashier(){
     }
 
     
-    let OIDCounter =JSON.parse(localStorage.getItem('OIDCounter'))  || 1000;
+    let OIDCounter = parseInt(localStorage.getItem('OIDCounter')) || 1000;
 
 
 
