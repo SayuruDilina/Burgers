@@ -217,7 +217,7 @@ function searchCashier(){
 function Calc() {
      
     showToast(cart);
-    let OIDCounter = parseInt(localStorage.getItem('OIDCounter')) || 0;
+    let OIDCounter = parseInt(localStorage.getItem('OIDCounter')) || 1000;
     let Tot;
     localStorage.setItem('OIDCounter', OIDCounter);
 
