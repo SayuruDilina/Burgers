@@ -10,15 +10,19 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="home" >
-    <div class="image-container2">
-        <img src="img/bacgroun Quail.jpg" alt="Background Image">
-        <h1 id="HeaderPage2">✨ S&N Burgers🍔</h1>
-        <input type="button" value="Place Order" onclick="location.href='OrderUI.html'"  class="fade-in" id="btnPlaceOrder">
-        <input type="button" value="Search" id="btnSearch"  class="fade-in" onclick="location.href='Search.html'" >
-        <input type="button" value="View" id="btnView"  class="fade-in" onclick="location.href='ViewOrders.html'" > 
-         <input type="button" value="Update Order Details"  class="fade-in" id="btnUpdateOrder"  onclick="location.href='UpdateDetails.html'" > 
-        <input type="button" value="Back To Home Page"  class="fade-in" onclick="location.href='index.html'" id="FirstPageBtn" >
+    <div class="container">
+        <div class="image-container2">
+            <img src="img/bacgroun Quail.jpg" alt="Background Image" class="img-fluid">
+            <h1 id="HeaderPage2">✨ S&N Burgers🍔</h1>
+            <div class="d-flex flex-column flex-md-row justify-content-center">
+                <input type="button" value="Place Order" class="btn btn-primary fade-in mb-2 mb-md-0" onclick="location.href='OrderUI.html'" id="btnPlaceOrder">
+                <input type="button" value="Search" class="btn btn-primary fade-in mb-2 mb-md-0" id="btnSearch" onclick="location.href='Search.html'">
+                <input type="button" value="View" class="btn btn-primary fade-in mb-2 mb-md-0" id="btnView" onclick="location.href='ViewOrders.html'"> 
+                <input type="button" value="Update Order Details" class="btn btn-primary fade-in mb-2 mb-md-0" id="btnUpdateOrder" onclick="location.href='UpdateDetails.html'">
+                <input type="button" value="Back To Home Page" class="btn btn-primary fade-in" onclick="location.href='index.html'" id="FirstPageBtn">
+            </div>
         </div>
+    </div>
     
 
 

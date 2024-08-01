@@ -1318,3 +1318,23 @@ function clearFields() {
     localStorage.removeItem('customerInfo');
    
 }
+// Function to handle radio button change
+function handleRoleChange() {
+    const messageElement = document.getElementById('role-message');
+    const selectedRole = document.querySelector('input[name="role"]:checked').value;
+
+    if (selectedRole === 'cashier') {
+        messageElement.textContent = 'Username: Cashier | Password:Cashier1234';
+    
+    } else if (selectedRole === 'admin') {
+        messageElement.textContent = 'Username: Admin | Password:Admin1234';
+    }
+}
+
+// Add event listeners to radio buttons
+document.querySelectorAll('input[name="role"]').forEach(radio => {
+    radio.addEventListener('change', handleRoleChange);
+});
+
+// Initialize message on page load
+handleRoleChange();
