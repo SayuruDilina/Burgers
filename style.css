@@ -1,11 +1,8 @@
-
-/* Hide the radio buttons */
 .role-radio {
     display: none;
 
 }
 
-/* Style the labels to look like buttons */
 .role-label {
     display: inline-block;
     padding: 10px 20px;
@@ -24,15 +21,12 @@
     margin-right: 5px;
 }
 
-/* Change the appearance when the radio button is checked */
-.role-radio:checked + .role-label {
-    /* background-color: #007bff; */
-    color:black;
-    /* border-color: #007bff;
+.role-radio:checked+.role-label {
+    color: black;
 
-    */
 }
-.role-label:hover{
+
+.role-label:hover {
     border: 3px solid #7B7272;
 }
 
@@ -46,6 +40,7 @@
     justify-content: center;
     height: 100vh;
     background-color: #f4f4f4;
+
 }
 
 .image-container {
@@ -128,28 +123,28 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .image-container img {
         width: 80%;
         margin-bottom: 20px;
     }
-    
+
     .form-container {
         margin-left: 0;
         width: 100%;
     }
-    
+
     .button-container {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .role-label {
         margin-bottom: 10px;
         width: 100%;
         text-align: center;
     }
-    
+
     .role-label:last-child {
         margin-bottom: 0;
     }
@@ -159,26 +154,28 @@
     background-color: #D00C0C;
 }
 
-#Heading_HomePage{
-text-align: center
+#Heading_HomePage {
+    text-align: center
 }
+
 #btnPlaceOrder {
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 30%; /* adjust as needed */
-    left: 20%; /* adjust as needed */
+    position: absolute;
+    top: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; 
+    background-color: #FFB347;
+    color: #333;
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px; 
+    border-radius: 50px;
     transform: translate(-50%, -50%);
 }
+
 #btnPlaceOrder:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnPlaceOrder:focus {
@@ -186,24 +183,26 @@ text-align: center
 }
 
 #btnPlaceOrder:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#FirstPageBtn{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 89%; /* adjust as needed */
-    left: 21%; /* adjust as needed */
+
+#FirstPageBtn {
+    position: absolute;
+    top: 89%;
+    left: 21%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
+    background-color: #FFB347;
     color: #333;
     border: none;
-    padding: 15px 90px; /* adjust padding as needed */
+    padding: 15px 90px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
+
 #FirstPageBtn:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #FirstPageBtn:focus {
@@ -211,7 +210,7 @@ text-align: center
 }
 
 #FirstPageBtn:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
 
 .image-container2 {
@@ -220,26 +219,28 @@ text-align: center
 }
 
 .image-container2 img {
+
     width: 100%;
     height: auto;
-    
-} 
-#btnSearch{
-    position: absolute; 
-    top: 45%; 
-    left: 20%; 
+}
+
+#btnSearch {
+    position: absolute;
+    top: 45%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; /* Dark text color for better readabil*/
+    background-color: #FFB347;
+    color: #333;
     border: none;
-    padding: 15px 160px; 
+    padding: 15px 160px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px;  
+    border-radius: 50px;
 }
+
 #btnSearch:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnSearch:focus {
@@ -247,24 +248,26 @@ text-align: center
 }
 
 #btnSearch:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#btnView{
+
+#btnView {
     position: absolute;
     top: 60%;
-    left:20%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; /* Dark text color for better readabil*/
+    background-color: #FFB347;
+    color: #333;
     border: none;
-    padding: 15px 170px; 
+    padding: 15px 170px;
     font-size: 25px;
     cursor: pointer;
-     border-radius: 50px; 
+    border-radius: 50px;
 }
+
 #btnView:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnView:focus {
@@ -272,7 +275,7 @@ text-align: center
 }
 
 #btnView:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
 
 
@@ -283,26 +286,27 @@ text-align: center
     transform: translate(-50%, -50%);
     text-align: left;
     z-index: 1;
-    color: white; 
+    color: white;
 }
-#btnUpdateOrder{
+
+#btnUpdateOrder {
     position: absolute;
     top: 75%;
-    left:20%;
+    left: 20%;
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; /* Dark text color for better readabil*/
+    background-color: #FFB347;
+    color: #333;
     border: none;
-    padding: 15px 80px; 
+    padding: 15px 80px;
     font-size: 25px;
     cursor: pointer;
-   
-    border-radius: 50px; 
+    border-radius: 50px;
 }
+
 #btnUpdateOrder:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnUpdateOrder:focus {
@@ -310,20 +314,22 @@ text-align: center
 }
 
 #btnAddCashier:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
+    /* Slightly scale down on click */
 }
 
 .image-container3 img {
-      position: relative;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-         
-            object-fit: cover;
-    
-} 
-#PlaceOrder{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+#PlaceOrder {
     position: absolute;
     top: 5%;
     left: 50%;
@@ -331,11 +337,11 @@ text-align: center
     background-color: #FB0E0E;
     color: white;
     border: none;
-    padding: 15px 150px; 
+    padding: 15px 150px;
     font-size: 25px;
     text-align: left;
     z-index: 1;
-    border-radius: 50px; 
+    border-radius: 50px;
 
 }
 
@@ -348,10 +354,11 @@ text-align: center
     font-size: 2em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 .order-id-container {
     position: absolute;
     top: 10%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -370,10 +377,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Customer-id-container {
     position: absolute;
     top: 20%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -392,10 +400,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Number-id-container {
     position: absolute;
-    top:30%;
-    left:25%;
+    top: 30%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -414,10 +423,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Item-id-container {
     position: absolute;
     top: 40%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -436,10 +446,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Price-id-container {
     position: absolute;
     top: 50%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -458,10 +469,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Discount-id-container {
     position: absolute;
     top: 60%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -480,10 +492,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Qty-id-container {
     position: absolute;
     top: 70%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -502,10 +515,11 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
+
 .Total-id-container {
     position: absolute;
     top: 80%;
-    left:25%;
+    left: 25%;
     transform: translateX(-50%);
     color: white;
     display: flex;
@@ -524,313 +538,361 @@ text-align: center
     border: none;
     border-radius: 5px;
 }
-#logo{
-    width:10%;
-  
+
+#logo {
+    width: 10%;
+
 }
+
 .card-square {
     width: 150px;
     height: 150px;
 }
+
 .card-img-top {
     height: 100px;
     width: auto;
     object-fit: cover;
 }
+
 .card-body {
     padding: 5px;
     text-align: center;
 }
-.card-title, .card-text {
+
+.card-title,
+.card-text {
     font-size: 14px;
     color: red;
 }
-.card-title, .card-text-Price {
+
+.card-title,
+.card-text-Price {
     font-size: 14px;
     font-weight: bold;
 }
+
 .btn-sm {
     font-size: 12px;
-   
-   
-   
+
+
+
 }
-.Buybutton{
-    background-color:greenyellow ;/* Green background */
-    color: white;             /* White text */
-    border: none;   
+
+.Buybutton {
+    background-color: greenyellow;
+    color: white;
+    border: none;
     padding: 10px;
-   border-radius: 40px;      
-
-}
-.Buybutton:hover {
-    background-color:red; /* Darker green on hover */
-}
-#HeadingPlaceOrder{
-    font-family:Alfa Slab One ;
-font-size:xx-large;
-text-align: center;
-color: white;
-background-color:#F60C0C;
-padding: 40px 300px; /* Adjust padding to make the border longer */
     border-radius: 40px;
-    margin: 0; /* Remove default margin */
-    display: inline-block; /
 
 }
+
+.Buybutton:hover {
+    background-color: red;
+
+}
+
+#HeadingPlaceOrder {
+    font-family: Alfa Slab One;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color: #F60C0C;
+    padding: 40px 300px;
+    border-radius: 40px;
+    margin: 0;
+    display: inline-block;/
+}
+
 .heading-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the entire container's content */
-    margin: 20px; 
+    justify-content: center;
+    margin: 20px;
 }
 
 .heading-image {
-    height: 100px; /* Adjust the size of the image */
+    height: 100px;
     width: auto;
-    margin-right: 10px; 
+    margin-right: 10px;
     background-color: #fff;
 }
 
 /* #HeadingPlaceOrder {
     margin: 0;
 } */
-#OrderID{
+#OrderID {
     margin-top: 10%;
     font-weight: 700;
     margin-left: 30px;
 
 }
-#custName1{
+
+#custName1 {
     font-weight: 700;
 
 }
-#Name{
+
+#Name {
     font-weight: 900;
     font-size: x-large;
-   margin-left:3%;
+    margin-left: 3%;
 }
-#name{
+
+#name {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #7B7272;
-   
+
     color: white;
 }
-#nameUpdate{
+
+#nameUpdate {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #7B7272;
-     color: white;
+    color: white;
 }
-#TelephoneNumber{
+
+#TelephoneNumber {
     margin-top: 30px;
     font-weight: 900;
     font-size: x-large;
-   margin-left:2%;
+    margin-left: 2%;
 
 }
-#TeleNumUpdate{
+
+#TeleNumUpdate {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #7B7272;
-   
+
     color: white;
 }
-#TeleNum{
+
+#TeleNum {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #7B7272;
-   
+
     color: white;
-} .input-container {
+}
+
+.input-container {
     margin-bottom: 20px;
 }
-#ItemCode{
+
+#ItemCode {
     margin-top: 30px;
     font-weight: 900;
     font-size: x-large;
-   margin-left:2%;
+    margin-left: 2%;
 }
-#ItemCodeText{
+
+#ItemCodeText {
     color: white;
- 
-   padding: 15px 100px;
-    border-radius: 40px ;
+
+    padding: 15px 100px;
+    border-radius: 40px;
     background-color: #7B7272;
 }
-#ItemCodeTextUpdate{
+
+#ItemCodeTextUpdate {
     color: white;
- 
+
     padding: 15px 100px;
-     border-radius: 40px ;
-     background-color: #7B7272;
+    border-radius: 40px;
+    background-color: #7B7272;
 
 }
-#Price{
+
+#Price {
     margin-top: 30px;
     font-weight: 900;
     font-size: x-large;
-   margin-left:2%;
+    margin-left: 2%;
 }
-#PriceText{
-    color: white;
-     padding: 15px 100px;
-     border-radius: 40px ;
-     background-color: #7B7272;
 
-
-}
-#PriceTextUpdate{
-    color: white;
-     padding: 15px 100px;
-     border-radius: 40px ;
-     background-color: #7B7272;
-}
-#DiscountTextUpdate{
+#PriceText {
     color: white;
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
+    background-color: #7B7272;
+
+
+}
+
+#PriceTextUpdate {
+    color: white;
+    padding: 15px 100px;
+    border-radius: 40px;
     background-color: #7B7272;
 }
-#QTYTextUpdate{
+
+#DiscountTextUpdate {
     color: white;
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #7B7272;
 }
-#Discount{
-    margin-top: 30px;
-    font-weight: 900;
-    font-size: x-large;
-   margin-left:2%; 
-}
-#DiscountText{
-    color: white;
-     padding: 15px 100px;
-     border-radius: 40px ;
-     background-color: #7B7272;
 
-
-
-}
-#QTY{
-    margin-top: 30px;
-    font-weight: 900;
-    font-size: x-large;
-   margin-left:2%;  
-}
-#QTYText{
+#QTYTextUpdate {
     color: white;
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
+    background-color: #7B7272;
+}
+
+#Discount {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 2%;
+}
+
+#DiscountText {
+    color: white;
+    padding: 15px 100px;
+    border-radius: 40px;
     background-color: #7B7272;
 
 
 
 }
-#TotalFeildUpdate{
+
+#QTY {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 2%;
+}
+
+#QTYText {
+    color: white;
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
+    background-color: #7B7272;
+
+
+
+}
+
+#TotalFeildUpdate {
+    padding: 15px 100px;
+    border-radius: 40px;
     background-color: #D9D9D9;
-   font-weight: bold;
+    font-weight: bold;
     color: black;
 }
-#Total{
+
+#Total {
     color: red;
     margin-top: 30px;
     font-weight: 900;
     font-size: x-large;
-   margin-left:40%; 
+    margin-left: 40%;
 }
-#TotalFeild{
+
+#TotalFeild {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #D9D9D9;
-   font-weight: bold;
+    font-weight: bold;
     color: black;
 }
-#btnOrder{
+
+#btnOrder {
     margin-left: 110px;
-    padding:20px 70px ;
+    padding: 20px 70px;
     border-radius: 40px;
     background-color: #42E907;
     color: white;
     font-size: larger;
-    font-family:Alfa Slab One ;
+    font-family: Alfa Slab One;
 }
-#btnOrder:hover{
+
+#btnOrder:hover {
     background-color: #F60C0C;
 }
-#btnUpdate{
+
+#btnUpdate {
     margin-left: 150px;
-    padding:20px 50px ;
+    padding: 20px 50px;
     border-radius: 40px;
     background-color: #42E907;
     color: white;
     font-size: larger;
-    font-family:Alfa Slab One ;
+    font-family: Alfa Slab One;
 }
-#btnUpdate:hover{
+
+#btnUpdate:hover {
     background-color: #c40b0b;
 }
-#Backbtn{
-    font-family:Alfa Slab One ;
+
+#Backbtn {
+    font-family: Alfa Slab One;
     margin-left: 250px;
-    padding:20px 45px ;
+    padding: 20px 45px;
     border-radius: 40px;
     background-color: red;
     color: white;
     font-size: larger;
 }
-#Backbtn:hover{
+
+#Backbtn:hover {
     background-color: #3EF510;
 }
-#SearchFeild{
+
+#SearchFeild {
     padding: 15px 100px;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: #D9D9D9;
-   font-weight: bold;
+    font-weight: bold;
     color: black;
     margin-left: 30%;
 
 }
-#SearchBtn{
+
+#SearchBtn {
     font-family: Inknut Antiqua;
     margin-left: 2%;
     font-size: large;
     padding: 15px 50px;
     border-radius: 40px;
-    background-color:#3EF510;
+    background-color: #3EF510;
 
 
 }
-#SearchBtn:hover{
+
+#SearchBtn:hover {
     background-color: #c40b0b;
 }
-#NameSearch{
- 
+
+#NameSearch {
+
     font-weight: 900;
     font-size: x-large;
-   margin-left:2%; 
+    margin-left: 2%;
 
 }
 
-#OrderDetailSearch{
-text-align: center;
-background-color:#F60C0C ;
-padding: 20px;
-margin-left: 10%;
-margin-right: 10%;
-border-radius: 40px;
-color:white 
+#OrderDetailSearch {
+    text-align: center;
+    background-color: #F60C0C;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 40px;
+    color: white
+}
 
+#NameSearchField {
+    border: none;
+    font-size: large;
+    font-weight: bold;
 }
-#NameSearchField{
-border: none;
-font-size: large;
-font-weight: bold;
-}
+
 #CustomerDetails {
     width: 100%;
     border-collapse: collapse;
@@ -840,7 +902,8 @@ font-weight: bold;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-#CustomerDetails th, #CustomerDetails td {
+#CustomerDetails th,
+#CustomerDetails td {
     padding: 12px 15px;
     text-align: left;
     border: 1px solid #ddd;
@@ -860,25 +923,30 @@ font-weight: bold;
     background-color: #f1f1f1;
 }
 
-#CustomerDetails th, #CustomerDetails td {
+#CustomerDetails th,
+#CustomerDetails td {
     text-align: center;
 }
-#BackBtnSerach{
+
+#BackBtnSerach {
     font-family: Inknut Antiqua;
     font-size: large;
     margin-left: 80%;
-  margin-top: 3%;
-  padding: 10px 50px;
-  background-color:#3EF510;
-  border-radius: 40px;
+    margin-top: 3%;
+    padding: 10px 50px;
+    background-color: #3EF510;
+    border-radius: 40px;
 
 }
-#BackBtnSerach:hover{
+
+#BackBtnSerach:hover {
     background-color: #c40b0b;
 }
-#priceSample{
+
+#priceSample {
     width: 100px;
 }
+
 button {
     padding: 8px 12px;
     border: none;
@@ -893,28 +961,32 @@ button.edit-button {
     padding: 5px 20px;
     border-radius: 40px;
     font-weight: bold;
-    background-color:#003333; /* Blue color for Edit button */
+    background-color: #003333;
+
 }
 
 button.edit-button:hover {
-    background-color:#33FFCC; /* Darker blue on hover */
+    background-color: #33FFCC;
+
 }
 
 button.buy-button {
-    background-color:#3EF510;
+    background-color: #3EF510;
     padding: 5px 20px;
     border-radius: 40px;
     font-weight: bold;
 }
 
 button.buy-button:hover {
-    background-color:  #c40b0b /* Darker green on hover */
+    background-color: #c40b0b
 }
-#BurgerMenu{
+
+#BurgerMenu {
     text-align: center;
     background-color: #D9D9D9;
 }
-button.delete-button{
+
+button.delete-button {
     background-color: #c40b0b;
     padding: 5px 20px;
     border-radius: 40px;
@@ -923,9 +995,10 @@ button.delete-button{
 
 .plus-button {
     margin-top: 5%;
-    margin-left:80% ;
-padding:10px 20px;
-    background-color: #c40b0b;;
+    margin-left: 80%;
+    padding: 10px 20px;
+    background-color: #c40b0b;
+    ;
     border: none;
     border-radius: 40px;
     color: white;
@@ -943,35 +1016,37 @@ padding:10px 20px;
 .plus-button:active {
     transform: translateY(0);
 }
-#HeadingUpdateOrder{
-    font-family:Alfa Slab One ;
-font-size:x-large;
-text-align: center;
 
-background-color:#F60C0C;
-padding: 40px 300px; /* Adjust padding to make the border longer */
+#HeadingUpdateOrder {
+    font-family: Alfa Slab One;
+    font-size: x-large;
+    text-align: center;
+
+    background-color: #F60C0C;
+    padding: 40px 300px;
     border-radius: 40px;
-    margin: 0; /* Remove default margin */
-    display: inline-block; /
-
+    margin: 0;
+    display: inline-block;/
 }
-#btnAddCashier{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 30%; /* adjust as needed */
-    left: 20%; /* adjust as needed */
+
+#btnAddCashier {
+    position: absolute;
+    top: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; /* Dark text color for better readability on light orange */
-  
+    background-color: #FFB347;
+    color: #333;
+
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
+
 #btnAddCashier:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnAddCashier:focus {
@@ -979,25 +1054,27 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 }
 
 #btnAddCashier:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#btnBackTo{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 90%; /* adjust as needed */
-    left: 20%; /* adjust as needed */
+
+#btnBackTo {
+    position: absolute;
+    top: 90%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
-    color: #333; /* Dark text color for better readability on light orange */
-  
+    background-color: #FFB347;
+    color: #333;
+
     border: none;
-    padding: 15px 90px; /* adjust padding as needed */
+    padding: 15px 90px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px;  
+    border-radius: 50px;
 }
+
 #btnBackTo:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnBackTo:focus {
@@ -1005,25 +1082,27 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 }
 
 #btnBackTo:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#btnCashierSearch{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 45%;  /* adjust as needed */
-    left: 20%; /* adjust as needed */
+
+#btnCashierSearch {
+    position: absolute;
+    top: 45%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
+    background-color: #FFB347;
     color: #333;
-   
+
     border: none;
-    padding: 15px 120px; /* adjust padding as needed */
+    padding: 15px 120px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 }
+
 #btnCashierSearch:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnCashierSearch:focus {
@@ -1031,25 +1110,27 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 }
 
 #btnCashierSearch:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#btnViewOrders{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 60%;  /* adjust as needed */
-    left: 20%; /* adjust as needed */
+
+#btnViewOrders {
+    position: absolute;
+    top: 60%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
+    background-color: #FFB347;
     color: #333;
-   
+
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 }
+
 #btnViewOrders:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnViewOrders:focus {
@@ -1057,27 +1138,29 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 }
 
 #btnViewOrders:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#btnFindReport{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 75%;  /* adjust as needed */
-    left: 20%; /* adjust as needed */
+
+#btnFindReport {
+    position: absolute;
+    top: 75%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    background-color: #FFB347; /* Light orange color */
+    background-color: #FFB347;
     color: #333;
-   
+
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 
-    
+
 }
+
 #btnFindReport:hover {
-    background-color: #FF8C00; /* Darker orange on hover */
-    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    background-color: #FF8C00;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 #btnFindReport:focus {
@@ -1085,20 +1168,22 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 }
 
 #btnFindReport:active {
-    transform: translate(-50%, -50%) scale(0.98); /* Slightly scale down on click */
+    transform: translate(-50%, -50%) scale(0.98);
 }
-#ViewOrder{
-    font-family:Alfa Slab One ;
-font-size:xx-large;
-text-align: center;
-color: white;
-background-color:#F60C0C;
-padding: 40px 300px; /* Adjust padding to make the border longer */
+
+#ViewOrder {
+    font-family: Alfa Slab One;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color: #F60C0C;
+    padding: 40px 300px;
     border-radius: 40px;
-    margin: 0; /* Remove default margin */
-    display: inline-block; 
+    margin: 0;
+    display: inline-block;
 
 }
+
 #CustomerDetailsView {
     width: 100%;
     border-collapse: collapse;
@@ -1108,7 +1193,8 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-#CustomerDetailsView th, #CustomerDetailsView td {
+#CustomerDetailsView th,
+#CustomerDetailsView td {
     padding: 12px 15px;
     text-align: left;
     border: 1px solid #ddd;
@@ -1126,41 +1212,45 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     background-color: #f1f1f1;
 }
 
-#CustomerDetailsView th, #CustoustomerDetailsView td {
+#CustomerDetailsView th,
+#CustoustomerDetailsView td {
     text-align: center;
 }
-#GetReportHeading{
-    font-family:Alfa Slab One ;
-    font-size:xx-large;
+
+#GetReportHeading {
+    font-family: Alfa Slab One;
+    font-size: xx-large;
     text-align: center;
     color: white;
-    background-color:#F60C0C;
-    padding: 40px 300px; /* Adjust padding to make the border longer */
-        border-radius: 40px;
-        margin: 0; /* Remove default margin */
-        display: inline-block; 
-    
+    background-color: #F60C0C;
+    padding: 40px 300px;
+    border-radius: 40px;
+    margin: 0;
+    display: inline-block;
+
 }
-#btnMonthlyReport{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 40%; /* adjust as needed */
-    left: 50%; /* adjust as needed */
+
+#btnMonthlyReport {
+    position: absolute;
+    top: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: #7B7272;
     color: white;
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px; 
+    border-radius: 50px;
 
 }
-#btnMonthlyReport:hover{
+
+#btnMonthlyReport:hover {
     background-color: #D9D9D9;
 }
 
 
-#CustomerDetailsReport{
+#CustomerDetailsReport {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
@@ -1168,7 +1258,9 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     font-family: 'Arial', sans-serif;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-#CustomerDetailsReport th, #CustomerDetailsReport td {
+
+#CustomerDetailsReport th,
+#CustomerDetailsReport td {
     padding: 12px 15px;
     text-align: left;
     border: 1px solid #ddd;
@@ -1186,81 +1278,92 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     background-color: #f1f1f1;
 }
 
-#CustomerDetailsReport th, #CustomerDetailsReport td {
+#CustomerDetailsReport th,
+#CustomerDetailsReport td {
     text-align: center;
 }
-#btnBestCustomer{
-    position: absolute; /* or relative, depending on your layout needs */
-    top:55%; /* adjust as needed */
-    left: 50%; /* adjust as needed */
+
+#btnBestCustomer {
+    position: absolute;
+    top: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: #7B7272;
     color: white;
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 }
-#btnBestCustomer:hover{
+
+#btnBestCustomer:hover {
     background-color: #D9D9D9;
 }
-#btnHomeCashier{
-    position: absolute; /* or relative, depending on your layout needs */
-    top:85%; /* adjust as needed */
-    left: 50%; /* adjust as needed */
+
+#btnHomeCashier {
+    position: absolute;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: #7B7272;
     color: white;
     border: none;
-    padding: 15px 100px; /* adjust padding as needed */
+    padding: 15px 100px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 }
-.Menu{
+
+.Menu {
     margin-top: 10px;
     text-align: center;
-    background-color:gray;
+    background-color: gray;
 }
-#btnItemsReport{
-    position: absolute; /* or relative, depending on your layout needs */
-    top: 70%; /* adjust as needed */
-    left: 50%; /* adjust as needed */
+
+#btnItemsReport {
+    position: absolute;
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: #7B7272;
     color: white;
     border: none;
-    padding: 15px 130px; /* adjust padding as needed */
+    padding: 15px 130px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
-#btnItemsReport:hover{
+
+#btnItemsReport:hover {
     background-color: #D9D9D9;
 }
-#AddCashierBody{
-    background-color: #ffffff; /* Set background color */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 
-      0 10px 15px rgba(0, 0, 0, 0.3), 
-      0 4px 6px rgba(0, 0, 0, 0.2);
-    padding:140px; /* Add padding inside the box */
-    margin: 20px; /* Margin around the box */
-    
+
+#AddCashierBody {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:
+        0 10px 15px rgba(0, 0, 0, 0.3),
+        0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 140px;
+    margin: 20px;
+
 }
-#BestCustomerTxt{
+
+#BestCustomerTxt {
     padding: 5px 30px;
     font-size: larger;
     font-weight: 800;
     border-radius: 40px;
-   background-color: #FFEBEE;
+    background-color: #FFEBEE;
 }
-#BestCustBody{
-    background: linear-gradient(45deg, #FFC0CB, #FFB6C1, #FF69B4, #FF1493); 
+
+#BestCustBody {
+    background: linear-gradient(45deg, #FFC0CB, #FFB6C1, #FF69B4, #FF1493);
 }
-#TelephoneNumberTxt{
-   
+
+#TelephoneNumberTxt {
+
     margin-top: 5px;
     padding: 5px 5px;
     font-size: large;
@@ -1268,7 +1371,8 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     border-radius: 40px;
     background-color: #FFEBEE;
 }
-#AmountTxt{
+
+#AmountTxt {
     color: #c40b0b;
     margin-top: 5px;
     padding: 5px 5px;
@@ -1277,34 +1381,46 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
     border-radius: 40px;
     background-color: #FFEBEE;
 }
-#NameBestCustomer{
+
+#NameBestCustomer {
     font-size: x-large;
     font-weight: bold;
     margin-left: 30%;
     color: rgba(255, 105, 180, 0.8);
 }
-#TelephoneNumberBest{
+
+#TelephoneNumberBest {
     font-size: x-large;
     font-weight: bold;
     margin-left: 29%;
     color: rgba(255, 105, 180, 0.8);
 }
-#Amount{
+
+#Amount {
     font-size: x-large;
     font-weight: bold;
     margin-left: 29%;
-    color: rgba(255, 105, 180, 0.8); 
+    color: rgba(255, 105, 180, 0.8);
 }
+
 @keyframes sparkle {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .sparkle {
     position: absolute;
     border-radius: 50%;
-    background: rgba(255, 105, 180, 0.8); /* Light pink with transparency */
+    background: rgba(255, 105, 180, 0.8);
     pointer-events: none;
     box-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
     animation: sparkle 1s infinite;
@@ -1359,89 +1475,105 @@ padding: 40px 300px; /* Adjust padding to make the border longer */
 #buttonBestCust:active {
     transform: scale(0.98);
 }
-#BestCst{ 
-    background-color: #ffffff; /* Set background color */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 
-      0 10px 15px rgba(0, 0, 0, 0.3), 
-      0 4px 6px rgba(0, 0, 0, 0.2);
-    padding:70px; /* Add padding inside the box */
-    margin: 20px; /* Margin around the box */}
-#SearchCashierTxt{
+
+#BestCst {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:
+        0 10px 15px rgba(0, 0, 0, 0.3),
+        0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    margin: 20px;
+}
+
+#SearchCashierTxt {
     padding: 10px 50px;
     margin-left: 30%;
     border-radius: 40px;
 }
-#SearchCashierBtn{
-    padding: 10px 20px ;
+
+#SearchCashierBtn {
+    padding: 10px 20px;
     font-size: large;
     border-radius: 40px;
     background-color: #3EF510;
 }
-#SearchCashierBtn:hover{
+
+#SearchCashierBtn:hover {
     background-color: #c40b0b;
 }
-#CashierName{
+
+#CashierName {
     color: #D35400;
     font-size: x-large;
     font-weight: bold;
     margin-left: 30%;
 }
-#CashierPasswordSearch{
+
+#CashierPasswordSearch {
     color: #D35400;
     font-size: x-large;
     font-weight: bold;
     margin-left: 29%;
 }
-#CashierNameSearchTxt{
+
+#CashierNameSearchTxt {
     padding: 10px 40px;
     border-radius: 40px;
     margin-left: 30px;
 }
-#CashierPasswordSearchTxt{
+
+#CashierPasswordSearchTxt {
     padding: 10px 40px;
     border-radius: 40px;
 }
-#SerchCashierBody{
+
+#SerchCashierBody {
     background-color: #FFCC99;
 }
-#SearchCashierInter{
-     background-color: #ffffff; /* Set background color */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 
-      0 10px 15px rgba(0, 0, 0, 0.3), 
-      0 4px 6px rgba(0, 0, 0, 0.2);
-    padding:90px; /* Add padding inside the box */
-    margin: 20px; /* Margin around the box */
+
+#SearchCashierInter {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:
+        0 10px 15px rgba(0, 0, 0, 0.3),
+        0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    margin: 20px;
 }
-#CashierNameUpdate{
-  
-  font-size: x-large;
-font-weight: bolder;
-color:#D35400;
+
+#CashierNameUpdate {
+
+    font-size: x-large;
+    font-weight: bolder;
+    color: #D35400;
 
 }
-#UpdateCashier{
+
+#UpdateCashier {
     margin-left: 40%;
-    padding: 10px 30px ;
+    padding: 10px 30px;
     margin-top: 50px;
     border-radius: 40px;
     background-color: #3EF510;
     font-size: large;
 }
-#DeleteCashier{
-    padding: 10px 30px ;
+
+#DeleteCashier {
+    padding: 10px 30px;
     font-size: large;
     border-radius: 40px;
     background-color: red;
     margin-left: 50px;
 }
-#CashierPassword{
+
+#CashierPassword {
     font-size: x-large;
-font-weight: bolder;
-color: #D35400;
+    font-weight: bolder;
+    color: #D35400;
 }
-#AddBtn{
+
+#AddBtn {
     margin-top: 10px;
     margin-left: 300px;
     padding: 10px 50px;
@@ -1449,164 +1581,190 @@ color: #D35400;
     font-size: x-large;
     background-color: #3EF510;
 }
-#AddBtn:hover{
+
+#AddBtn:hover {
     background-color: #D00C0C;
 }
-#CashierNameTxt{
+
+#CashierNameTxt {
     margin-left: 25px;
     padding: 10px;
     border-radius: 40px;
 }
-#CashierPasswordTxt{
+
+#CashierPasswordTxt {
     padding: 10px;
     border-radius: 40px;
 }
 
-#toastBox{
+#toastBox {
     position: absolute;
     bottom: 30px;
     right: 30px;
     display: flex;
-    align-items:flex-end ;
+    align-items: flex-end;
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
 }
-#toastBoxSearch{
-    position: fixed; /* Ensure the position is fixed so it stays in place */
-    top: 70%; /* Position 20% from the top of the viewport */
-    right: 5px; /* Position 30px from the right edge */
+
+#toastBoxSearch {
+    position: fixed;
+    top: 70%;
+    right: 5px;
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) of the container */
+    align-items: flex-start;
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
 }
-#SearchCashierBox{
-    position: fixed; /* Ensure the position is fixed so it stays in place */
-    top: 80%; /* Position 20% from the top of the viewport */
-    right: 5px; /* Position 30px from the right edge */
+
+#SearchCashierBox {
+    position: fixed;
+    top: 80%;
+    right: 5px;
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) of the container */
+    align-items: flex-start;
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
 }
-#toastBoxOrder{
-    
-    position: fixed; /* Ensure the position is fixed so it stays in place */
-    top: 80%; /* Position 20% from the top of the viewport */
-    right: 5px; /* Position 30px from the right edge */
+
+#toastBoxOrder {
+
+    position: fixed;
+    top: 80%;
+    right: 5px;
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) of the container */
+    align-items: flex-start;
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
 }
-.toast{
+
+.toast {
     width: 400px;
     height: 80px;
     background-color: #fff;
     font-weight: 700;
     margin: 15px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     position: relative;
 }
+
 .toast img {
-    margin:0 20px;
-    width: 30px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
-    vertical-align: middle; /* Align with text */
-    margin-right: 10px; /* Space between image and text */
+    margin: 0 20px;
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
 }
-.toast::after{
+
+.toast::after {
     content: '';
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height:5px ;
-   background: green;
-   animation: anim 5s linear forwards;
+    height: 5px;
+    background: green;
+    animation: anim 5s linear forwards;
 }
-.toast.Cashier::after{
-    background:red;
+
+.toast.Cashier::after {
+    background: red;
 }
-.toast.Check::after{
-    background:red;
+
+.toast.Check::after {
+    background: red;
 }
-@keyframes anim{
-    100%{
+
+@keyframes anim {
+    100% {
         width: 0;
     }
 }
-#SearchFoodBtn{
+
+#SearchFoodBtn {
     padding: 10px 50px;
     border-radius: 40px;
     background-color: #42E907;
-    font-size:large;
+    font-size: large;
     font-weight: bold;
     color: #fff;
 }
-#SearchFoodBtn:hover{
+
+#SearchFoodBtn:hover {
     background-color: #c40b0b;
 }
-#SearchFoodTxt{
+
+#SearchFoodTxt {
     padding: 10px 100px;
-    margin-left:30%;
+    margin-left: 30%;
     margin-bottom: 5px;
     border-radius: 40px;
 }
-#OrderUIbody{
-    background: linear-gradient(to bottom, #e0e0e0, #ffffff); 
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-  
+
+#OrderUIbody {
+    background: linear-gradient(to bottom, #e0e0e0, #ffffff);
+    margin: 0;
+    padding: 0;
+
 }
-#MonthlyReportBody{
-    background: linear-gradient(to bottom, #e0e0e0, #ffffff); 
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+
+#MonthlyReportBody {
+    background: linear-gradient(to bottom, #e0e0e0, #ffffff);
+    margin: 0;
+    padding: 0;
 }
-#PlaceOrderBody{
-    background: linear-gradient(to bottom, #e0e0e0, #ffffff); 
+
+#PlaceOrderBody {
+    background: linear-gradient(to bottom, #e0e0e0, #ffffff);
 }
-#ViewOrdersBody{
-    background: linear-gradient(to bottom, #e0e0e0, #ffffff); 
+
+#ViewOrdersBody {
+    background: linear-gradient(to bottom, #e0e0e0, #ffffff);
 }
-#OrderId{
+
+#OrderId {
     margin-top: 30px;
     font-weight: 900;
     font-size: x-large;
-   margin-left:3%; 
+    margin-left: 3%;
 }
-#OIDText{
+
+#OIDText {
     border: none;
     background: linear-gradient(to bottom, #e0e0e0, #ffffff);
-    font-size: x-large; 
+    font-size: x-large;
 }
-#OIDTextUpdate{
+
+#OIDTextUpdate {
     border: none;
     background: linear-gradient(to bottom, #e0e0e0, #ffffff);
-    font-size: x-large; 
+    font-size: x-large;
 }
-#UpdateOrderDetails{
-    background: linear-gradient(to bottom, #e0e0e0, #ffffff); 
+
+#UpdateOrderDetails {
+    background: linear-gradient(to bottom, #e0e0e0, #ffffff);
 }
-#billBtn{
- margin-left: 200px;
-   padding: 20px 75px;
-   border-radius: 40px;
-   background-color: #42E907;
-   color: white;
-   font-size: larger;
-   font-family:Alfa Slab One ;
+
+#billBtn {
+    margin-left: 200px;
+    padding: 20px 75px;
+    border-radius: 40px;
+    background-color: #42E907;
+    color: white;
+    font-size: larger;
+    font-family: Alfa Slab One;
 }
-#billBtn:hover{
+
+#billBtn:hover {
     background-color: #F60C0C;
 }
+
 .heading-container {
     display: flex;
     align-items: center;
@@ -1616,7 +1774,7 @@ color: #D35400;
 }
 
 .heading-image {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
     margin-right: 20px;
     animation: fadeIn 1s ease-out;
@@ -1633,6 +1791,7 @@ h1 {
         transform: translateX(-100%);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -1643,13 +1802,14 @@ h1 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
+
 .back-button {
-    position: fixed;
-   
+    /* position: fixed; */
     left: 20px;
     background-color: #FB0E0E;
     color: white;
@@ -1658,16 +1818,18 @@ h1 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, opacity 0.3s ease;
-    z-index: 1000; /* Ensure it's on top of other elements */
+    z-index: 1000;
 }
-#CashierBack{
-    padding: 15px  40px;
+
+#CashierBack {
+    padding: 15px 40px;
     border-radius: 40px;
     font-size: large;
     background-color: red;
 }
+
 .back-button:hover {
     background-color: #FFCCCC;
     transform: scale(1.05);
@@ -1678,7 +1840,7 @@ h1 {
     transform: scale(0.95);
 }
 
-/* Optional: Add a fade-in animation */
+
 .fade-in {
     animation: fadeIn 1s ease-out;
 }
@@ -1687,35 +1849,38 @@ h1 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
-#seacrhbody{
-   
+
+#seacrhbody {
+
     background: linear-gradient(to bottom, #e0e0e0, #ffffff);
 }
+
 ::-webkit-scrollbar {
     width: 12px;
 }
 
-/* Style the scrollbar track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 10px;
 }
 
-/* Style the scrollbar thumb */
+
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px;
 }
 
-/* Style the scrollbar thumb on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-/* Base styles */
+
 #SubTot {
     font-size: x-large;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -1729,53 +1894,55 @@ h1 {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Hover effect */
+
 div:hover #SubTot {
-    color:#D00C0C; /* Change color on hover */
-    transform: scale(1.05); /* Slightly increase size */
+    color: #D00C0C;
+    transform: scale(1.05);
 }
 
 div:hover #SubTotTxt {
-    background-color: #e7f0ff; /* Light blue background on hover */
-    border-color: #007BFF; /* Change border color */
+    background-color: #e7f0ff;
+    border-color: #007BFF;
 }
-#GetBillBtn{
+
+#GetBillBtn {
     padding: 10px 50px;
-    margin-top:1px;
+    margin-top: 1px;
     background-color: #3EF510;
     font-size: large;
     border-radius: 40px;
 }
-#GetBillBtn:hover{
+
+#GetBillBtn:hover {
     background-color: #D00C0C;
 }
-/* Modal background */
+
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
-    z-index: 1000; /* Sit on top */
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Modal content */
+
 .modal-content {
     background-color: #fff;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
     max-width: 500px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-/* Close button */
+
 .close-button {
     color: red;
     float: right;
@@ -1790,14 +1957,27 @@ div:hover #SubTotTxt {
     cursor: pointer;
 }
 
-/* Alert message */
+
 #alertMessage {
     font-size: x-large;
     color: black;
 }
-#indexbody{
+
+#indexbody {
     background: linear-gradient(to right, #FFD700, #FF6347);
 }
-#AddCashody{
+
+#AddCashody {
     background-color: #FFCC99;
+}
+
+.home {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bacgrounQuail.jpg);
 }

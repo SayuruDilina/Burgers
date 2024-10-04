@@ -17,38 +17,38 @@ function copyTableDataToArray() {
     return dataArray;
 }
 
-// Define the Monthly object
-let currentMonthValue = new Date().getMonth() + 1; // Months are zero-indexed
+
+let currentMonthValue = new Date().getMonth() + 1;
 let currentYear = new Date().getFullYear();
 let currentdate = new Date().getDate();
 
 function generateReport() {
-    let dataArray = copyTableDataToArray(); 
+    let dataArray = copyTableDataToArray();
     var Monthly = {
-        outputType: jsPDFInvoiceTemplate.OutputType.Save, // Use OutputType from jsPDFInvoiceTemplate
+        outputType: jsPDFInvoiceTemplate.OutputType.Save,
         returnJsPDFDocObject: true,
         fileName: "Monthly Sales Report",
         orientationLandscape: false,
         compress: true,
         logo: {
             src: "img/logo.png",
-            type: 'PNG', // Optional, when src = data:uri (nodejs case)
-            width: 40, // Aspect ratio = width/height
+            type: 'PNG',
+            width: 40,
             height: 40,
             margin: {
-                top: -10, // Negative or positive num, from the current position
-                left: 0 // Negative or positive num, from the current position
+                top: -10,
+                left: 0
             }
         },
         stamp: {
-            inAllPages: true, // By default = false, just in the last page
+            inAllPages: true,
             src: "https://raw.githubusercontent.com/edisonneza/jspdf-invoice-template/demo/images/qr_code.jpg",
-            type: 'JPG', // Optional, when src = data:uri (nodejs case)
-            width: 20, // Aspect ratio = width/height
+            type: 'JPG',
+            width: 20,
             height: 20,
             margin: {
-                top: 0, // Negative or positive num, from the current position
-                left: 0 // Negative or positive num, from the current position
+                top: 0,
+                left: 0
             }
         },
         business: {
@@ -60,9 +60,9 @@ function generateReport() {
         },
         invoice: {
             label: "Monthly Sales Report: ",
-             num:1,// Ensure this variable is defined elsewhere in your code
-            invDate: `From: 1/${currentMonthValue}/${currentYear}`, // Template literals for dynamic values
-            invGenDate: `To: ${currentdate}/${currentMonthValue}/${currentYear}`, // Template literals for dynamic values
+            num: 1,
+            invDate: `From: 1/${currentMonthValue}/${currentYear}`,
+            invGenDate: `To: ${currentdate}/${currentMonthValue}/${currentYear}`,
             headerBorder: true,
             tableBodyBorder: true,
             header: [
@@ -72,29 +72,29 @@ function generateReport() {
                 { title: "Total" }
             ],
             table: dataArray.map((rowData, index) => ([
-                index + 1, // Index for row number
+                index + 1,
                 rowData.orderID,
-                rowData.date, // Using the 'date' property from dataArray
-                rowData.total // Using the 'total' property from dataArray
+                rowData.date,
+                rowData.total
             ])),
             additionalRows: [
                 {
                     col1: 'Total:',
                     col2: '145,250.50',
                     col3: 'ALL',
-                    style: { fontSize: 14 } // Optional, default 12
+                    style: { fontSize: 14 }
                 },
                 {
                     col1: 'VAT:',
                     col2: '20',
                     col3: '%',
-                    style: { fontSize: 10 } // Optional, default 12
+                    style: { fontSize: 10 }
                 },
                 {
                     col1: 'SubTotal:',
                     col2: '116,199.90',
                     col3: 'ALL',
-                    style: { fontSize: 10 } // Optional, default 12
+                    style: { fontSize: 10 }
                 }
             ],
         },
@@ -105,10 +105,10 @@ function generateReport() {
         pageLabel: "Page ",
     };
 
-    // Create the PDF
+
     jsPDFInvoiceTemplate.default(Monthly);
 
-    // Log the object for debugging
+
     console.log("PDF Object created");
 }
 

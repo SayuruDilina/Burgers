@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Retrieve and parse customerInfo from localStorage
+           
             let customerInfo = JSON.parse(localStorage.getItem('customerInfo'));
             
             if (customerInfo) {
@@ -17,10 +17,8 @@
                 document.getElementById("TeleNum").value = customerInfo.telephone || '';
             }
         });
-    </script>
     
-    <script>
-         function getParameterByName(name, url = window.location.href) {
+           function getParameterByName(name, url = window.location.href) {
             name = name.replace(/[\[\]]/g, '\\$&');
             const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
                   results = regex.exec(url);
@@ -29,7 +27,7 @@
             return decodeURIComponent(results[2].replace(/\+/g, ' '));
         }
 
-        // Function to set the input fields with the URL parameters
+       
         window.onload = function() {
             document.getElementById("OIDText").value = OIDCounter;
             const itemCode = getParameterByName('itemCode');

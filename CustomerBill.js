@@ -11,7 +11,7 @@ function generateBill() {
     const dataArray = [
         {
             itemCode: itemCode,
-            customerName:customerName,
+            customerName: customerName,
             quantity: quantity,
             price: price.toFixed(2),
             discount: discount.toFixed(2),
@@ -75,19 +75,19 @@ function generateBill() {
             additionalRows: [
                 {
                     col1: 'Customer Name:',
-                    col2: customerName || 'N/A', // Default to 'N/A' if empty
+                    col2: customerName || 'N/A',
                     col3: '',
                     style: { fontSize: 12 }
                 },
                 {
                     col1: 'Telephone Number:',
-                    col2: telephoneNumber || 'N/A', // Default to 'N/A' if empty
+                    col2: telephoneNumber || 'N/A',
                     col3: '',
                     style: { fontSize: 12 }
                 },
                 {
                     col1: 'Order ID:',
-                    col2: orderId || 'N/A', // Default to 'N/A' if empty
+                    col2: orderId || 'N/A',
                     col3: '',
                     style: { fontSize: 12 }
                 },
@@ -106,9 +106,9 @@ function generateBill() {
         pageLabel: "Page "
     };
 
-    // Create the PDF
+
     jsPDFInvoiceTemplate.default(Monthly);
 
-    // Log the object for debugging
+
     console.log("PDF Object created");
 }

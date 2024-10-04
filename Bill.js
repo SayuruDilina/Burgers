@@ -13,7 +13,7 @@ function generatePDF() {
     }
 
     tableData.forEach(item => {
-        console.log("Item Data:", item); // Log to ensure all fields are present
+        console.log("Item Data:", item); 
     });
 
     const firstItem = tableData[0] || {};
@@ -61,11 +61,11 @@ function generatePDF() {
             margin: { top: 0, left: 0 }
         },
         business: {
-            name: "S&D Burgers",
+            name: "S&N Burgers",
             address: "No 115, New City, Halphathota, Baddegama",
             phone: "(+94) 070 2786812",
-            email: "SDBurgers@gmail.com",
-            website: "www.S&DBurgers.com"
+            email: "SNBurgers@gmail.com",
+            website: "www.S&NBurgers.com"
         },
         contact: {
             label: `Bill for:  ${customerName}\nOrder ID: ${orderId}\nNet Total: ${netTotal.toFixed(2)}\n `
